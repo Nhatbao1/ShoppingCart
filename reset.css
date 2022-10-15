@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+}
+
+/* video{
+    max-width: 100%;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
